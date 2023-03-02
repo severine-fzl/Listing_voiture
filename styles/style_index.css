@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #c1bdba;
+  font-family: "Roboto", sans-serif;
+  margin: 0px auto;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  margin-top: 20px;
+  color: black;
+}
+
+.formulaire:not(p) {
+  background-color: #28323b;
+  box-shadow: 5px 5px 5px rgb(66, 66, 66);
+  color: white;
+  margin: 30px 20% 100px 20%;
+}
+
+form {
+  padding-bottom: 1px;
+}
+
+.icone {
+  text-align: right;
+}
+
+.fa-circle-xmark {
+  color: #e21b1b;
+  font-size: 25px;
+}
+
+.fa-circle-xmark:hover,
+.fa-pencil:hover {
+  color: #50ae8a;
+}
+
+.fa-pencil {
+  color: white;
+  font-size: 22px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+li {
+  display: table-row;
+}
+
+ul {
+  padding-top: 15px;
+}
+
+li div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.check {
+  width: 20px;
+  padding-right: 10px;
+}
+
+input[type="checkbox"] {
+  border-radius: 4px;
+  height: 15px;
+  width: 15px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 10;
+}
+
+.dateAjout {
+  font-style: italic;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.btnAjoutVoiture,
+.btnSupprVoiture,
+.btnSelectionner {
+  background-color: #50ae8a;
+  text-transform: uppercase;
+  width: 15%;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ajouter,
+.supprimer,
+.selectionner {
+  text-align: center;
+}
+
+.trait:not(:last-child) {
+  border: 3px #c1bdba solid;
+}
+
+.noVoiture {
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  margin-top: -50px;
+}
+
+.btnAjoutVoiture:hover, .btnSupprVoiture:hover, .btnSelectionner:hover {
+  background-color: #28323b;
+  color: white;
+  transition: background-color 0.5s 0s ease;
+  transition: color 0.5s 0s ease;
+}
